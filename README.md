@@ -2,6 +2,10 @@
 
 This project implements an efficient method for detecting duplicate 3D blocks in large datasets. It processes a 3D image file, applies a threshold to convert it into binary data, extracts 3D blocks, and uses a hash table to identify and count duplicate blocks. The solution is optimized for large-scale datasets, ensuring both performance and memory efficiency.
 
+## Note
+
+The asset folder is where you should upload your raw file, in my case it was c8.raw, I haven't upload it due to it's size.
+
 ## Features
 
 - **Efficient Duplicate Detection**: The program uses a hash table to detect and count duplicate 3D blocks quickly.
